@@ -133,7 +133,7 @@ address {
 
 .aligned-text_center {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 0px 0px 30px;
   letter-spacing: 0.3em;
   display: block;
 }
@@ -142,7 +142,7 @@ address {
   display: block;
   text-align: right;
   letter-spacing: 0.3em;
-  margin-right: -10px;
+  margin: 20px -32px 0px 0px;
 }
 
 /* Описание и кнопка */
@@ -194,7 +194,7 @@ address {
 }
 
 .lots__card-list-item {
-  min-height: 450px;
+  height: 596px;
 }
 
 .card-link {
@@ -265,7 +265,7 @@ address {
 .about__column {
   display: flex;
   flex-direction: column;
-  margin-left: -145px;
+  margin-left: -115px;
 }
 
 .about__logo {
@@ -290,7 +290,6 @@ address {
 }
 
 .about__text {
-  padding-left: 20px;
   padding-right: 35px;
   display: flex;
   flex-direction: column;
@@ -304,7 +303,6 @@ address {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 0 50px 0px;
   margin: 0px 50px;
 }
 
