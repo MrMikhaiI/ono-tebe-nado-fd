@@ -16,7 +16,7 @@ body {
     font-style: normal;
   }
   
-  /* ===== Шапка ===== */
+  /* Шапка */
   .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -93,7 +93,7 @@ body {
   line-height: inherit;
 }
   
-  /* ===== Секция cover ===== */
+  /* Секция cover */
   .cover {
     position: relative; 
     min-height: 757px; 
@@ -172,11 +172,11 @@ body {
     transition: opacity 0.3s ease;
   }
   
-  .bet-button:hover {
+  /* .bet-button:hover {
     opacity: 0.8;
-  }
+  } */
   
-  /* ===== Секция lots ===== */
+  /* Секция lots */
   .lots {
     padding: 180px 50px;
   }
@@ -251,7 +251,7 @@ body {
     text-decoration: underline;
   }
   
-  /* ===== Секция about ===== */
+  /* Секция about */
   .about {
     display: grid;
     grid-template-columns: 430px 1fr; 
@@ -268,9 +268,9 @@ body {
   }
   
   .about__column {
-    /* padding-top: 133px; */
     display: flex;
     flex-direction: column;
+    margin-left: -145px;
   }
   
   .about__logo {
@@ -303,7 +303,7 @@ body {
     line-height: 1.4;
   }
   
-  /* ===== Подвал (footer) ===== */
+  /* Подвал */
   .footer {
     display: grid;
     grid-template-columns: 1fr min-content 1fr; 
@@ -318,7 +318,7 @@ body {
     align-items: flex-start;
     margin: 0;
     padding: 0;
-    gap: 3px; /* Минимальный отступ между строками */
+    gap: 3px; 
     min-width: 300px;
   }
   
@@ -326,7 +326,7 @@ body {
     border-bottom: 0.5px solid currentColor;
     margin: 0;
     padding: 0;
-    line-height: 1; /* Убираем лишнюю высоту у ссылок */
+    line-height: 1; 
   }
   
   .footer__address {
@@ -335,7 +335,6 @@ body {
     justify-self: start;
   }
   
-  /* Меню (центральная колонка) */
   .footer__menu {
     justify-self: center;
     padding-bottom: 115px; 
