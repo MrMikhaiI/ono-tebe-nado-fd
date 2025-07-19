@@ -1,11 +1,8 @@
 body {
-  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #000000;
   max-width: 1440px;
-  margin: 0 auto;
   background-color: #ffffff;
-  width: 1100px;
 }
 
 a {
@@ -27,6 +24,8 @@ address {
 /* Меню */
 .header__menu {
   justify-self: start;
+  margin-bottom: 5px;
+  margin-left: 2px;
 }
 
 .header__links-list {
@@ -66,25 +65,24 @@ address {
 
 /* Адрес */
 .address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-self: end;
   max-width: 240px;
   font-size: 18px;
   line-height: 1.15;
-}
-
-.header__address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   margin: 0;
   padding: 0;
+  margin-bottom: 5px;
 }
 
-.header__address a {
-  border-bottom: 0.5px solid currentColor;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
+.address a {
+border-bottom: 0.5px solid currentColor;
+margin: 0;
+padding: 0;
+line-height: 1;
+margin-bottom: 6px;
 }
 
 .address p {
@@ -121,7 +119,7 @@ address {
   font-weight: 700;
   line-height: 1.15;
   text-transform: uppercase;
-  margin-bottom: 135px;
+  margin-bottom: 106px;
   z-index: 2;
 }
 
@@ -159,6 +157,7 @@ address {
   font-size: 22px;
   word-spacing: 18px;
   text-transform: uppercase;
+  margin-right: 30px;
 }
 
 .bet-button {
@@ -194,7 +193,7 @@ address {
 }
 
 .lots__card-list-item {
-  height: 596px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -234,11 +233,16 @@ address {
   text-transform: uppercase;
   z-index: 2;
   margin-bottom: 30px;
+  margin-top: 8px;
+  margin-left: 10px;
 }
 
 .card__text {
   font-size: 20px;
   z-index: 2;
+  margin-left: 9px;
+  margin-bottom: 8px;
+  margin-right: 10px;
 }
 
 .lots__look-more-link {
@@ -258,14 +262,14 @@ address {
 .about__heading {
   font-size: 40px;
   text-transform: uppercase;
-  padding-top: 110px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 102px;
 }
 
 .about__column {
   display: flex;
   flex-direction: column;
-  margin-left: -115px;
+  margin-left: -96px;
 }
 
 .about__logo {
@@ -295,7 +299,7 @@ address {
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 1;
 }
 
 /* Подвал */
@@ -308,28 +312,17 @@ address {
 
 /* Адрес (левая колонка) */
 .footer__address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
   gap: 3px;
   min-width: 300px;
   padding-left: 0px;
-  padding-bottom: 82px;
+  padding-bottom: 20px;
   justify-self: start;
 }
 
-.footer__address a {
-  border-bottom: 0.5px solid currentColor;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-}
-
+/* Меню (центральная колонка) */
 .footer__menu {
   justify-self: center;
-  padding-bottom: 115px;
+  padding-bottom: 68px;
   width: 163.9px;
   min-height: 64px;
 }
